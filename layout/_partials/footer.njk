@@ -24,6 +24,12 @@
   </div>
   {%- endif %}
 
+  {%- if theme.footer.icp %}
+    <div class="icp-info">
+     <a href="https://icp.gov.moe/?keyword=20240134" target="_blank">萌ICP备20240134号</a>
+   </div>
+  {%- endif %}
+
   {%- if theme.footer.powered %}
   <div class="powered-by">
     {{ __('footer.powered', _url('https://hexo.io', 'Hexo') + ' & Theme.' + _url('https://github.com/amehime/hexo-theme-shoka', 'Shoka')) }}
